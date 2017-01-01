@@ -9,7 +9,7 @@ s.license      = 'MIT'
 s.author       = {'kbo' => '542235666@qq.com'}
 s.source       = { :git => 'https://github.com/LiYouCheng/LYCFrameWork.git'}
 s.platform     = :ios,"7.0"
-s.source_files = "LYCFramework/*.{h,m}"
+#s.source_files = "LYCFramework/*.{h,m}"
 s.resources    = "LYCFramework/*.{bundle,framework}"
 
 end
