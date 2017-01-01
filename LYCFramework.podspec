@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "LYCFramework"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = '测试库程序'
 s.homepage     = "https://github.com/LiYouCheng/LYCFrameWork"
 s.license      = 'MIT'
