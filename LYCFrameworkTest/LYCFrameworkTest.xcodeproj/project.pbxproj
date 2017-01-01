@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128AF0E91E17D46F00FA571D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 128AF0E81E17D46F00FA571D /* main.m */; };
+		128AF0EC1E17D46F00FA571D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 128AF0EB1E17D46F00FA571D /* AppDelegate.m */; };
+		128AF0EF1E17D46F00FA571D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128AF0EE1E17D46F00FA571D /* ViewController.m */; };
+		128AF0F21E17D46F00FA571D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128AF0F01E17D46F00FA571D /* Main.storyboard */; };
+		128AF0F51E17D46F00FA571D /* LYCFrameworkTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 128AF0F31E17D46F00FA571D /* LYCFrameworkTest.xcdatamodeld */; };
+		128AF0F71E17D46F00FA571D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128AF0F61E17D46F00FA571D /* Assets.xcassets */; };
+		128AF0FA1E17D46F00FA571D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128AF0F81E17D46F00FA571D /* LaunchScreen.storyboard */; };
+		128AF1051E17D46F00FA571D /* LYCFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128AF1041E17D46F00FA571D /* LYCFrameworkTestTests.m */; };
+		128AF1101E17D46F00FA571D /* LYCFrameworkTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128AF10F1E17D46F00FA571D /* LYCFrameworkTestUITests.m */; };
+		128AF1E91E17FEF800FA571D /* LYCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128AF1E71E17FEF800FA571D /* LYCFramework.framework */; };
+		128AF1EA1E17FEF800FA571D /* myFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 128AF1E81E17FEF800FA571D /* myFramework.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128AF1011E17D46F00FA571D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128AF0DC1E17D46F00FA571D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128AF0E31E17D46F00FA571D;
+			remoteInfo = LYCFrameworkTest;
+		};
+		128AF10C1E17D46F00FA571D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128AF0DC1E17D46F00FA571D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128AF0E31E17D46F00FA571D;
+			remoteInfo = LYCFrameworkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		128AF1A51E17F3B700FA571D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF1D71E17FCE100FA571D /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		128AF0E41E17D46F00FA571D /* LYCFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128AF0E81E17D46F00FA571D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		128AF0EA1E17D46F00FA571D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		128AF0EB1E17D46F00FA571D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		128AF0ED1E17D46F00FA571D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		128AF0EE1E17D46F00FA571D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		128AF0F11E17D46F00FA571D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		128AF0F41E17D46F00FA571D /* LYCFrameworkTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LYCFrameworkTest.xcdatamodel; sourceTree = "<group>"; };
+		128AF0F61E17D46F00FA571D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128AF0F91E17D46F00FA571D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128AF0FB1E17D46F00FA571D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128AF1001E17D46F00FA571D /* LYCFrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCFrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128AF1041E17D46F00FA571D /* LYCFrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCFrameworkTestTests.m; sourceTree = "<group>"; };
+		128AF1061E17D46F00FA571D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128AF10B1E17D46F00FA571D /* LYCFrameworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCFrameworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128AF10F1E17D46F00FA571D /* LYCFrameworkTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCFrameworkTestUITests.m; sourceTree = "<group>"; };
+		128AF1111E17D46F00FA571D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128AF17E1E17DD6000FA571D /* LYCFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LYCFramework.framework; path = LYCFrameworkTest/LYCFramework.framework; sourceTree = "<group>"; };
+		128AF1E71E17FEF800FA571D /* LYCFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LYCFramework.framework; sourceTree = "<group>"; };
+		128AF1E81E17FEF800FA571D /* myFramework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = myFramework.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128AF0E11E17D46F00FA571D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128AF1E91E17FEF800FA571D /* LYCFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF0FD1E17D46F00FA571D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF1081E17D46F00FA571D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128AF0DB1E17D46F00FA571D = {
+			isa = PBXGroup;
+			children = (
+				128AF0E61E17D46F00FA571D /* LYCFrameworkTest */,
+				128AF1031E17D46F00FA571D /* LYCFrameworkTestTests */,
+				128AF10E1E17D46F00FA571D /* LYCFrameworkTestUITests */,
+				128AF0E51E17D46F00FA571D /* Products */,
+				128AF17D1E17DD6000FA571D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		128AF0E51E17D46F00FA571D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128AF0E41E17D46F00FA571D /* LYCFrameworkTest.app */,
+				128AF1001E17D46F00FA571D /* LYCFrameworkTestTests.xctest */,
+				128AF10B1E17D46F00FA571D /* LYCFrameworkTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128AF0E61E17D46F00FA571D /* LYCFrameworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				128AF1E61E17FEF800FA571D /* LoginSDK */,
+				128AF0EA1E17D46F00FA571D /* AppDelegate.h */,
+				128AF0EB1E17D46F00FA571D /* AppDelegate.m */,
+				128AF0ED1E17D46F00FA571D /* ViewController.h */,
+				128AF0EE1E17D46F00FA571D /* ViewController.m */,
+				128AF0F01E17D46F00FA571D /* Main.storyboard */,
+				128AF0F61E17D46F00FA571D /* Assets.xcassets */,
+				128AF0F81E17D46F00FA571D /* LaunchScreen.storyboard */,
+				128AF0FB1E17D46F00FA571D /* Info.plist */,
+				128AF0F31E17D46F00FA571D /* LYCFrameworkTest.xcdatamodeld */,
+				128AF0E71E17D46F00FA571D /* Supporting Files */,
+			);
+			path = LYCFrameworkTest;
+			sourceTree = "<group>";
+		};
+		128AF0E71E17D46F00FA571D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				128AF0E81E17D46F00FA571D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		128AF1031E17D46F00FA571D /* LYCFrameworkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				128AF1041E17D46F00FA571D /* LYCFrameworkTestTests.m */,
+				128AF1061E17D46F00FA571D /* Info.plist */,
+			);
+			path = LYCFrameworkTestTests;
+			sourceTree = "<group>";
+		};
+		128AF10E1E17D46F00FA571D /* LYCFrameworkTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128AF10F1E17D46F00FA571D /* LYCFrameworkTestUITests.m */,
+				128AF1111E17D46F00FA571D /* Info.plist */,
+			);
+			path = LYCFrameworkTestUITests;
+			sourceTree = "<group>";
+		};
+		128AF17D1E17DD6000FA571D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128AF17E1E17DD6000FA571D /* LYCFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		128AF1E61E17FEF800FA571D /* LoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				128AF1E71E17FEF800FA571D /* LYCFramework.framework */,
+				128AF1E81E17FEF800FA571D /* myFramework.bundle */,
+			);
+			path = LoginSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128AF0E31E17D46F00FA571D /* LYCFrameworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128AF1141E17D46F00FA571D /* Build configuration list for PBXNativeTarget "LYCFrameworkTest" */;
+			buildPhases = (
+				128AF0E01E17D46F00FA571D /* Sources */,
+				128AF0E11E17D46F00FA571D /* Frameworks */,
+				128AF0E21E17D46F00FA571D /* Resources */,
+				128AF1A51E17F3B700FA571D /* Embed Frameworks */,
+				128AF1D71E17FCE100FA571D /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYCFrameworkTest;
+			productName = LYCFrameworkTest;
+			productReference = 128AF0E41E17D46F00FA571D /* LYCFrameworkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128AF0FF1E17D46F00FA571D /* LYCFrameworkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128AF1171E17D46F00FA571D /* Build configuration list for PBXNativeTarget "LYCFrameworkTestTests" */;
+			buildPhases = (
+				128AF0FC1E17D46F00FA571D /* Sources */,
+				128AF0FD1E17D46F00FA571D /* Frameworks */,
+				128AF0FE1E17D46F00FA571D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128AF1021E17D46F00FA571D /* PBXTargetDependency */,
+			);
+			name = LYCFrameworkTestTests;
+			productName = LYCFrameworkTestTests;
+			productReference = 128AF1001E17D46F00FA571D /* LYCFrameworkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128AF10A1E17D46F00FA571D /* LYCFrameworkTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128AF11A1E17D46F00FA571D /* Build configuration list for PBXNativeTarget "LYCFrameworkTestUITests" */;
+			buildPhases = (
+				128AF1071E17D46F00FA571D /* Sources */,
+				128AF1081E17D46F00FA571D /* Frameworks */,
+				128AF1091E17D46F00FA571D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128AF10D1E17D46F00FA571D /* PBXTargetDependency */,
+			);
+			name = LYCFrameworkTestUITests;
+			productName = LYCFrameworkTestUITests;
+			productReference = 128AF10B1E17D46F00FA571D /* LYCFrameworkTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128AF0DC1E17D46F00FA571D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李游城";
+				TargetAttributes = {
+					128AF0E31E17D46F00FA571D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					128AF0FF1E17D46F00FA571D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 128AF0E31E17D46F00FA571D;
+					};
+					128AF10A1E17D46F00FA571D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 128AF0E31E17D46F00FA571D;
+					};
+				};
+			};
+			buildConfigurationList = 128AF0DF1E17D46F00FA571D /* Build configuration list for PBXProject "LYCFrameworkTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128AF0DB1E17D46F00FA571D;
+			productRefGroup = 128AF0E51E17D46F00FA571D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128AF0E31E17D46F00FA571D /* LYCFrameworkTest */,
+				128AF0FF1E17D46F00FA571D /* LYCFrameworkTestTests */,
+				128AF10A1E17D46F00FA571D /* LYCFrameworkTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128AF0E21E17D46F00FA571D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128AF0FA1E17D46F00FA571D /* LaunchScreen.storyboard in Resources */,
+				128AF0F71E17D46F00FA571D /* Assets.xcassets in Resources */,
+				128AF1EA1E17FEF800FA571D /* myFramework.bundle in Resources */,
+				128AF0F21E17D46F00FA571D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF0FE1E17D46F00FA571D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF1091E17D46F00FA571D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128AF0E01E17D46F00FA571D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128AF0EF1E17D46F00FA571D /* ViewController.m in Sources */,
+				128AF0EC1E17D46F00FA571D /* AppDelegate.m in Sources */,
+				128AF0E91E17D46F00FA571D /* main.m in Sources */,
+				128AF0F51E17D46F00FA571D /* LYCFrameworkTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF0FC1E17D46F00FA571D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128AF1051E17D46F00FA571D /* LYCFrameworkTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128AF1071E17D46F00FA571D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128AF1101E17D46F00FA571D /* LYCFrameworkTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128AF1021E17D46F00FA571D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128AF0E31E17D46F00FA571D /* LYCFrameworkTest */;
+			targetProxy = 128AF1011E17D46F00FA571D /* PBXContainerItemProxy */;
+		};
+		128AF10D1E17D46F00FA571D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128AF0E31E17D46F00FA571D /* LYCFrameworkTest */;
+			targetProxy = 128AF10C1E17D46F00FA571D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		128AF0F01E17D46F00FA571D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128AF0F11E17D46F00FA571D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		128AF0F81E17D46F00FA571D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128AF0F91E17D46F00FA571D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128AF1121E17D46F00FA571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128AF1131E17D46F00FA571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128AF1151E17D46F00FA571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LYCFrameworkTest",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LYCFrameworkTest/LoginSDK",
+				);
+				INFOPLIST_FILE = LYCFrameworkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileInc.LYCFrameworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		128AF1161E17D46F00FA571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LYCFrameworkTest",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LYCFrameworkTest/LoginSDK",
+				);
+				INFOPLIST_FILE = LYCFrameworkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileInc.LYCFrameworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		128AF1181E17D46F00FA571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYCFrameworkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileInc.LYCFrameworkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCFrameworkTest.app/LYCFrameworkTest";
+			};
+			name = Debug;
+		};
+		128AF1191E17D46F00FA571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYCFrameworkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileInc.LYCFrameworkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCFrameworkTest.app/LYCFrameworkTest";
+			};
+			name = Release;
+		};
+		128AF11B1E17D46F00FA571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYCFrameworkTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileInc.LYCFrameworkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYCFrameworkTest;
+			};
+			name = Debug;
+		};
+		128AF11C1E17D46F00FA571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYCFrameworkTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileInc.LYCFrameworkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYCFrameworkTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128AF0DF1E17D46F00FA571D /* Build configuration list for PBXProject "LYCFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128AF1121E17D46F00FA571D /* Debug */,
+				128AF1131E17D46F00FA571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128AF1141E17D46F00FA571D /* Build configuration list for PBXNativeTarget "LYCFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128AF1151E17D46F00FA571D /* Debug */,
+				128AF1161E17D46F00FA571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		128AF1171E17D46F00FA571D /* Build configuration list for PBXNativeTarget "LYCFrameworkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128AF1181E17D46F00FA571D /* Debug */,
+				128AF1191E17D46F00FA571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		128AF11A1E17D46F00FA571D /* Build configuration list for PBXNativeTarget "LYCFrameworkTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128AF11B1E17D46F00FA571D /* Debug */,
+				128AF11C1E17D46F00FA571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		128AF0F31E17D46F00FA571D /* LYCFrameworkTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				128AF0F41E17D46F00FA571D /* LYCFrameworkTest.xcdatamodel */,
+			);
+			currentVersion = 128AF0F41E17D46F00FA571D /* LYCFrameworkTest.xcdatamodel */;
+			path = LYCFrameworkTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 128AF0DC1E17D46F00FA571D /* Project object */;
+}

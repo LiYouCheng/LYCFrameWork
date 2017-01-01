@@ -1,0 +1,6 @@
+framework module LYCFramework {
+  umbrella header "LYCFramework.h"
+
+  export *
+  module * { export * }
+}
